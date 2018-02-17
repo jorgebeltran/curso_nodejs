@@ -2,9 +2,9 @@
 var express = require("express");
 
 var app=express();
+app.set("view engine","jade");
 
 app.get("/", function (request, response){
-	response.send("hello word");
-} );
-
+	response.render("index", {hola:"hola jorge"});
+  });
 app.listen(3000);
