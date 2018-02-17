@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jorgebeltran/curso_nodejs/issues"
   },
-  "homepage": "https://github.com/jorgebeltran/curso_nodejs#readme"
+  "homepage": "https://github.com/jorgebeltran/curso_nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
